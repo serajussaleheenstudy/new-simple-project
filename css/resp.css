@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1020px) {
+    
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        height: 390px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .box-main img{
+        height: 250px;
+        width: 200x;
+        border-radius: 300px;
+    }
+
+    .fHalf{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text-small{
+        text-align: center;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+
+    .buttn{
+        text-align: center;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 30px 0;
+    }
+
+    .section img{
+        height: 200px;
+        width: 200px;
+        border-radius: 250px;
+    }
+
+    .paras{
+        text-align: center;
+    }
+
+    .secSubTag{
+        text-align: justify;
+    }
+
+    .rightNav{
+        text-align: center;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav{
+        height: 60px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+}
+
