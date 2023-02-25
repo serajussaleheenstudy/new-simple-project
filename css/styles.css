@@ -218,15 +218,36 @@ footer{
     margin: 5px 3px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1040px) {
     
     .nav-list{
         flex-direction: column;
     }
 
     .navbar{
+        height: 390px;
         flex-direction: column;
         transition: all 0.7s ease-out;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .box-main img{
+        height: 200px;
+        width: 200px;
+        border-radius: 300px;
+    }
+
+    .fHalf{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text-small{
+        text-align: center;
     }
 
     .rightNav{
@@ -242,7 +263,7 @@ footer{
     }
 
     .h-nav{
-        height: 72px;
+        height: 60px;
     }
 
     .v-class{

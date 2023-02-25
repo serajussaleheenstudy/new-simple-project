@@ -4,8 +4,8 @@ navlist = document.querySelector('.nav-list');
 rightNav = document.querySelector('.rightNav');
 
 
-burger.addEvntListener('click', ()=>{
-    navber.classList.toggle('v-class');
-    navList.classList.toggle('v-class');
-    rightNav.classList.toggle('h-nav');
+burger.addEventListener('click', ()=>{
+    navbar.classList.toggle('h-nav');
+    navlist.classList.toggle('v-class');
+    rightNav.classList.toggle('v-class');
 });
